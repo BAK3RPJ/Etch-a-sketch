@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+.column {
+  background-color: pink;
+}
+
+.row {
+  width: 800px;
+  display: grid;
+  grid-template-rows: 95%;
+  grid-gap: .5%;
+  margin: .1%;
+  background-color: teal;
+}
+
+.hover {
+  background-color: gray;
+}
+
+.click {
+  background-color: black;
+}
